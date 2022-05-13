@@ -94,5 +94,4 @@ str(diamonds.new.without.D)
 
 write.csv(diamonds.new.without.DH, './day3/shiny_diamonds_without_DH.csv',
           row.names = F)
-S
 
