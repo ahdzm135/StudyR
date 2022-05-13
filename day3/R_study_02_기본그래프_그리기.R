@@ -24,4 +24,4 @@ barplot(ds, main = '좋아하는 계절', col = rainbow(4),
 
 
 colors()
-
+S

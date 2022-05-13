@@ -225,3 +225,4 @@ colMeans(lunch.data)
 tips.rate <- tips$tip/tips$total_bill
 tips.rate
 mean(tips.rate) * 100
+S
