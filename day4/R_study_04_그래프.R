@@ -68,3 +68,4 @@ color[3] <- '#1d3577'
 hist(ds, main = '다이아몬드 시세(캐럿당)', breaks = 9,
      col = color, border = '#457B9D',
      xlab = '캐럿당 가격($)', ylab = '빈도수', las=1)
+

@@ -117,12 +117,12 @@ str(tips)
 unique(tips$sex)
 
 idx <- which(tips[, 'sex'] == 'Female')
-avg.famale <- mean(tips[idx, 'tip'])
+avg.female <- mean(tips[idx, 'tip'])
 
 idx <- which(tips[, 'sex'] == 'Male')
 avg.male <- mean(tips[idx, 'tip'])
 
-avg.famale
+avg.female
 avg.male
 
 unique(tips$smoker)
@@ -149,3 +149,6 @@ meanbycol.tip <- function(colname) {
 
 source('myfunc.R')
 meanbycol.tip('sex')
+meanbycol.tip('smoker')
+meanbycol.tip('size')
+meanbycol.tip('day')
